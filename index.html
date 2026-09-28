@@ -5,7 +5,20 @@
   </head>
   <body>
     <div class="game-containter">
-      
+      <aside class="panel">
+        <h1>HTML Chess</h1>
+        <div id="status">White to Move</div>
+
+        <div class="control-group">
+          <label for="difficulty">Bot Level:</label>
+          <select id="difficulty">
+            <option value="1">Easy (Random)</option>
+            <option value="2">Medium (Greedy)</option>
+            <option value="3">Hard (Minimax)</option>
+          </select>
+        </div>
+        <button id="reset-btn">New Game</button>
+      </aside>
     </div>
   </body>
 </html>
